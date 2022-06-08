@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/type_traits.hpp
+
+/home/pkultra/Projects/DummyMetaProgrammingLibrary/test/TypeTest.cpp
+gtest/gtest.h
+-
+type_traits.hpp
+/home/pkultra/Projects/DummyMetaProgrammingLibrary/test/type_traits.hpp
+
